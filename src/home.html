@@ -13,32 +13,39 @@
       <header class="w-full bg-white flex justify-center shadow-xl">
         <div class="w-[95%] md:w-[98%] lg:w-[98%] xl:w-[70%]">
           <div class="py-1 flex items-center justify-between">
-            <button>
+            <a>
               <img
                 src="../assets/images/svg/logo.svg"
                 alt="Benim Faturam Logo"
                 class="w-16 md:w-20 lg:w-20 xl:w-20 2xl:w-24"
               />
-            </button>
+            </a>
             <nav>
               <ul
                 class="flex items-center text-xxs md:text-sm lg:text- 2xl:text-base gap-2 md:gap-3 lg:gap-7"
               >
-                <li>
-                  <button class="font-semibold text-primary">Hakkımızda</button>
+                <li class="lg:transform hover:scale-110 duration-300">
+                  <a href="./about.html" class="font-semibold text-primary"
+                    >Hakkımızda</a
+                  >
                 </li>
-                <li>
-                  <button class="font-semibold text-primary">S.S.S</button>
+                <li class="lg:transform hover:scale-110 duration-300">
+                  <a href="./sss.html" class="font-semibold text-primary"
+                    >S.S.S</a
+                  >
                 </li>
-                <li>
-                  <button class="font-semibold text-primary">İletişim</button>
+                <li class="lg:transform hover:scale-110 duration-300">
+                  <a href="./contact.html" class="font-semibold text-primary"
+                    >İletişim</a
+                  >
                 </li>
-                <li>
-                  <button
+                <li class="lg:transform hover:scale-110 duration-300">
+                  <a
+                    href="./home.html"
                     class="font-semibold text-white bg-primary px-4 py-2 rounded-full"
                   >
                     Ana Sayfa
-                  </button>
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -46,25 +53,216 @@
         </div>
       </header>
       <!-- Header End -->
+
       <!-- Main Start -->
-      <main class="flex-1 flex items-center justify-center">
-        <div class="h-full w-full flex justify-center items-center flex-col">
-          <div>Google</div>
-          <div
-            class="bg-white w-[90%] max-w-[1200px] rounded-xl shadow-lg flex flex-col"
-          >
-            <h1>Ödeme</h1>
-            <div>Main Content</div>
-            <div>Footer</div>
+      <main class="flex-1 flex items-center justify-center flex-col gap-6">
+        <!-- Google / Apple Login Start -->
+        <div>
+          <div class="hidden md:flex lg:hidden items-center gap-2">
+            <img
+              src="../assets/images/png/güvenli ödeme.png"
+              alt="güvenli ödeme"
+              class="w-10"
+            />
+            <span class="text-white font-semibold text-sm">Güvenli Ödeme</span>
           </div>
-          <div>Footer</div>
+          <div class="hidden lg:flex gap-2">
+            <div class="bg-white flex items-center gap-2 rounded px-2 py-1">
+              <img
+                src="../assets/images/svg/GooglePlay.svg"
+                alt="google play"
+                class=""
+              />
+              <img
+                src="../assets/images/svg/GooglePlayQR.svg"
+                alt="google play QR"
+                class="w-14"
+              />
+            </div>
+            <div class="bg-white flex items-center gap-2 rounded px-2 py-1">
+              <img src="../assets/images/svg/AppStore.svg" alt="app store" />
+              <img
+                src="../assets/images/svg/AppStoreQR.svg"
+                alt="app store QR"
+                class="w-14"
+              />
+            </div>
+          </div>
         </div>
+        <!-- Google / Apple Login End -->
+
+        <!-- Main Content Start -->
+        <div
+          class="bg-white rounded-2xl w-[95%] md:w-[75%] lg:w-[90%] shadow-3xl p-4 lg:py-8 flex flex-col gap-y-8 xl:gap-y-20 items-center max-w-[1200px]"
+        >
+          <!-- Main Title Start-->
+          <p class="font-bold text-xs md:text-base lg:text-2xl">
+            Ödeme Yapmak İstediğiniz Kuruluşu Seçiniz
+          </p>
+          <!-- Main Title End -->
+          <!-- Main Menu Start -->
+          <div
+            class="w-full flex items-center justify-center flex-wrap gap-3 md:gap-5 lg:gap-10"
+          >
+            <div
+              class="flex flex-col items-center gap-2 lg:transform hover:scale-110 duration-300"
+            >
+              <span class="text-xxs lg:text-base">Telekomünikasyon</span>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/telekomünikasyon.svg"
+                  alt="telekomünikasyon"
+                  class="w-20 lg:w-32"
+                />
+              </a>
+            </div>
+            <div
+              class="flex flex-col items-center gap-2 lg:transform hover:scale-110 duration-300"
+            >
+              <span class="text-xxs lg:text-base">Elektrik</span>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/elektirik.svg"
+                  alt="elektrik"
+                  class="w-20 lg:w-32"
+                />
+              </a>
+            </div>
+            <div
+              class="flex flex-col items-center gap-2 lg:transform hover:scale-110 duration-300"
+            >
+              <span class="text-xxs lg:text-base">Doğalgaz</span>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/dogalgaz.svg"
+                  alt="dogalgaz"
+                  class="w-20 lg:w-32"
+                />
+              </a>
+            </div>
+            <div
+              class="flex flex-col items-center gap-2 lg:transform hover:scale-110 duration-300"
+            >
+              <span class="text-xxs lg:text-base">Su</span>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/su.svg"
+                  alt="su"
+                  class="w-20 lg:w-32"
+                />
+              </a>
+            </div>
+            <div
+              class="flex flex-col items-center gap-2 lg:transform hover:scale-110 duration-300"
+            >
+              <span class="text-xxs lg:text-base">Cep Telefonu</span>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/telefon.svg"
+                  alt="telefon"
+                  class="w-20 lg:w-32"
+                />
+              </a>
+            </div>
+            <div
+              class="flex flex-col items-center gap-2 lg:transform hover:scale-110 duration-300"
+            >
+              <span class="text-xxs lg:text-base">Belediye</span>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/belediye.svg"
+                  alt="belediye"
+                  class="w-20 lg:w-32"
+                />
+              </a>
+            </div>
+            <div
+              class="flex flex-col items-center gap-2 lg:transform hover:scale-110 duration-300"
+            >
+              <span class="text-xxs lg:text-base">Diğer</span>
+              <a href="#">
+                <img
+                  src="../assets/images/svg/diger.svg"
+                  alt="diger"
+                  class="w-20 lg:w-32"
+                />
+              </a>
+            </div>
+          </div>
+          <!-- Main Menu End -->
+          <div
+            class="hidden md:flex flex-col w-full items-center gap-2 lg:gap-6"
+          >
+            <div class="w-full flex justify-center">
+              <select
+                id="kurumSeciniz"
+                class="border px-2 rounded py-1 text-xs w-[40%] lg:text-base outline-none lg:py-2"
+              >
+                <option disabled selected>Kurum Seçiniz</option>
+                <option value="telekom">Telekomünikasyon</option>
+                <option value="elektrik">Elektrik</option>
+                <option value="dogalgaz">Doğalgaz</option>
+                <option value="su">Su</option>
+                <option value="telefon">Cep Telefonu</option>
+                <option value="belediye">Belediye</option>
+                <option value="diger">Diğer</option>
+                <!-- Diğer seçenekler -->
+              </select>
+            </div>
+            <div class="text-sm flex items-center gap-2">
+              <button
+                class="border bg-lighest-gray text-dark-gray font-semibold px-4 rounded-full py-1 lg:text-base xl:text-lg lg:px-6 lg:py-2"
+              >
+                Geri
+              </button>
+              <button
+                class="border bg-lighest-gray text-dark-gray/50 font-semibold px-4 rounded-full py-1 lg:text-base xl:text-lg lg:px-6 lg:py-2"
+              >
+                Devam
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Main Content End -->
+
+        <!-- Others Start -->
+        <div
+          class="flex flex-col justify-center items-center w-[85%] lg:w-[95%] max-w-[1150px] md:flex-row gap-2"
+        >
+          <div class="flex items-center gap-5">
+            <img src="../assets/images/png/tcmb.png" alt="tcmb" class="w-24" />
+            <div class="flex items-center md:hidden">
+              <img
+                src="../assets/images/png/güvenli ödeme.png"
+                alt="güvenli ödeme"
+                class="w-10"
+              />
+              <span class="text-xs font-semibold text-white"
+                >Güvenli Ödeme</span
+              >
+            </div>
+          </div>
+          <div class="text-white md:w-[70%]">
+            <p class="text-xxs md:text-md lg:text-md">
+              BenimFaturam.com.tr web sitesi Ahlatcı Ödeme ve Elektronik Para
+              Hizmetlerii A.Ş'ye aittir. Ahlatcı Ödeme ve Elektronilk Para
+              Hizmetleri A.Ş 6493 sayılı kanun çerçevesinde TCMB tarafından
+              yetkilendirilmiş bir Elektronik Para ve Ödeme Hizmetleri
+              Kuruluşudur. Ahlatcı Ödeme ve Elektronik Para Hizmetleri A.Ş.
+              TCMB'den edindiği lisans kapsamında Fatura Ödeme Hizmetleri
+              sunmaya resmi yetkilidir.
+            </p>
+          </div>
+        </div>
+        <!-- Others End -->
       </main>
       <!-- Main End -->
+
       <!-- Footer Start -->
-      <footer class="bg-white w-full justify-center flex outer-shadow">
+      <footer class="bg-white w-full justify-center flex outer-shadow relative">
+        <div>Buraya footer gelicek</div>
         <!-- Footer mobil görünümü -->
-        <div
+        <!-- <div
           class="w-[95%] md:hidden flex items-center justify-between flex-col py-2"
         >
           <div class="flex items-center justify-between w-full">
@@ -124,8 +322,8 @@
             >© 2022 - 2023 AHL Pay, tüm hakları saklıdır.</span
           >
         </div>
-        <!-- Footer tablet ve büyük ekranlarda görünümü -->
-        <div class="hidden md:block md:w-[98%] lg:w-[98%] xl:w-[70%]">
+         Footer tablet ve büyük ekranlarda görünümü -->
+        <!-- <div class="hidden md:block md:w-[98%] lg:w-[98%] xl:w-[70%]">
           <div class="w-full flex items-center justify-center py-3 relative">
             <span class="text-xxs absolute left-0"
               >© 2022 - 2023 AHL Pay, tüm hakları saklıdır.</span
@@ -182,7 +380,7 @@
               />
             </button>
           </div>
-        </div>
+        </div> -->
       </footer>
       <!-- Footer End -->
     </div>

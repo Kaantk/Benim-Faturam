@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @layer base {
   html,
   body {
     box-sizing: border-box;
     height: 100vh;
     background-image: url("../images/svg/Wallpaper.svg");
+    font-family: "Poppins", sans-serif;
     @apply bg-backdrop bg-cover;
   }
 }
@@ -18,5 +21,10 @@
   }
   .outer-shadow {
     box-shadow: 0px -30px 20px rgba(0, 0, 0, 0.1);
+  }
+  .shadow-3xl {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
 }

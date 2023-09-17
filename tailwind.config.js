@@ -7,7 +7,10 @@ module.exports = {
         primary: "#FEC00F",
         backdrop: "#831779",
         lighest: {
-          gray: "#C0C0C0",
+          gray: "#E2E2E2",
+        },
+        dark: {
+          gray: "#8A8A8A",
         },
       },
     },
